@@ -101,6 +101,12 @@ img{
     margin-bottom: 1rem;
 }
 /*footer*/
+.page-footer{
+    background-image: url(../images/footer-s.webp);
+    background-size: cover;
+    background-position: center;
+    padding-top: 12rem; 
+}
 .info {
     width: 100%;
     max-width: 544px;
@@ -119,4 +125,20 @@ img{
 }
 .info td{
     padding:1rem 0;
+}
+/*desktop edition*/
+
+@media (min-width:800px){
+    /*heading*/
+    .page-title{
+        font-size: 5rem;
+    }
+    .heading-large{
+        font-size: 4rem;
+    }
+    /*header*/
+    .main-nav{
+        font-size: 2rem;
+    }
+
 }
