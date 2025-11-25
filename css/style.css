@@ -11,31 +11,112 @@ a{
 img{
     max-width: 100%;
 }
-/* lay out */
-.align-center{
+
+
+/*layout*/
+.allign-center{
     text-align: center;
 }
 /*heading*/
-.font-english {
+.font-english{
     font-family: 'philosopher',sans-serif;
-    font-weight: normal;
+    font-weight: normal;}
+.page-title{
+    font-size:  3rem;
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 1.4;
+
+
+}
+.heading-large{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+/*botton*/
+.btn{
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: #0bd;
+    color:#fff;
+    border-radius: 8px;
+    padding: 75rem 1.5rem;
+}
+.btn:hover{
+    background-color: #0090aa;
 }
 
-/*header 
----------------*/
-.page-header {
+/*header*/
+.page-header{
     padding-top: .5rem;
 }
-.logo{width: 210px;}
-.main-nav {
-    display: flex;
-    justify-content:center ;
+.logo{
+    width: 210px;
+}
+.main-nav{
+    display:flex;
+    justify-content: center;
     gap: 2.5rem;
-    list-style-type:none;
+    font-size: 1.5rem;
+    list-style: none;
+
+
 }
-.main-nav a {
-    color: #432;
+
+.main-nav a{
+        color:#432;
 }
-.main-nav a:hover{
-    color: #0bd;
+.main-nav a :hover{
+    color:#0bd;
+}
+
+.cover{
+    background-size: cover;
+    background-position: center bottom;
+    height: 800px;
+}
+.cover-home{
+    background-image: url(../images/cover-home-s.webp);
+}
+.about{
+    max-width: 736px;
+    padding:0 1.5rem;
+    margin: 3rem auto 0;
+
+}
+.about p{
+    margin-bottom: 3rem;
+}
+.page-title,
+.heading-large{
+    font-size: 3rem;
+    text-align: center;
+}
+.page-title{
+    margin-top: 2rem;
+    line-height: 1.4;
+}
+.heading-large{
+    margin-bottom: 1rem;
+}
+/*footer*/
+.info {
+    width: 100%;
+    max-width: 544px;
+    margin: auto;
+    padding: 0 1.5rem;
+    border-spacing: 0;
+}
+.info th,
+.info td{
+    border-bottom: 1px solid #c9c2bc;
+}
+.info th {
+    text-align: left;
+    font-weight: normal;
+    padding:1rem;
+}
+.info td{
+    padding:1rem 0;
 }
